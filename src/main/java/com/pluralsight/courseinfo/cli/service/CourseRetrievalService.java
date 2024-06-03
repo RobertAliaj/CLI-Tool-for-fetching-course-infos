@@ -48,4 +48,3 @@ public class CourseRetrievalService {
         return OBJECT_MAPPER.readValue(response.body(), returnType);
     }
 }
-
